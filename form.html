@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>form</title>
+</head>
+<body>
+    <form ></form>
+    <form method="POST"></form>
+    <form action="/new-contact" method="POST"></form>
+    <input type="text"> <br>
+    <input type="text" name="username"/> <br>
+    <input type="text" name="username" placeholder="your username"> <br>
+    <input type="email" name="email" placeholder="your email"> <br>
+    <input type="password" name="password" placeholder="your password"> <br>
+    <input type="number" name="age" placeholder="your age"> <br>
+    <input type="number" name="age" placeholder="your age" min="18" max="110"><br>
+    <input type="number" name="a-number" min="10" max="50" step="5"><br>
+    <input type="hidden" name="some-hidden-field" value="some-value"><br>
+    <input type="number" name="age" value="18"><br>
+    <input type="number" name="age" placeholder="your age" value="18"><br>
+    <input type="submit"><br>
+    <input type="submit" value="click me">
+    <input type="text" name="username" required>
+    <input type="text" name="username" pattern="[a-zA-Z]{8}">
+    <input type="file" name="secret-document">
+    <input type="file" name="secret-document" multiple>
+    <input type="file" name="secret-document" accept="image/*">
+    <input type="file" name="secret-document" accept=".jpg,jpeg,.png">
+    <input type="button" value="click me">
+    <input type="reset">
+    <input type="radio" name="color" value="yellow" />
+    <input type="radio" name="color" value="red" />
+    <input type="radio" name="color" value="blue" />
+    <input type="checkbox" name="color" value="yellow" />
+    <input type="checkbox" name="color" value="red" />
+    <input type="checkbox" name="color" value="blue" />
+    <input type="date" name="birthday" />
+    <input type="time" name="time-to-pickup" />
+    <input type="month" name="choose-release-month" />
+    <input type="week" name="choose-week" />
+    <input type="datetime-local" name="date-and-time" />
+    <input type="color" name="car-color" />
+    <input type="color" name="car-color" value="#000000" />
+    <input type="range" name="age" min="0" max="100" value="30" />
+    <input type="range" name="age" min="0" max="100" value="30" step="10" />
+    <input type="tel" name="telephone-number" />
+    <input type="tel" pattern="[0-9]{3}-[0-9]{8}" name="telephone-number" />
+    <input type="url" name="website" />
+    <input type="url" name="website" pattern="https://.*" />
+    <textarea></textarea>
+    <textarea  rows="20" cols="10"></textarea>
+    <textarea name="article"></textarea>
+    <select name="color">
+    <option value="red">Red</option>
+    <option value="yellow">Yellow</option>
+    </select>
+    <select name="color">
+    <option value="red" disabled>Red</option>
+    <option value="yellow">Yellow</option>
+    </select>
+    <select name="color">
+    <option value="">None</option>
+    <option value="red">Red</option>
+    <option value="yellow">Yellow</option>
+    </select>
+    <select name="color">
+    <optgroup label="Primary">
+    <option value="red">Red</option>
+    <option value="yellow">Yellow</option>
+    <option value="blue">Blue</option>
+    </optgroup>
+    <optgroup label="Others">
+    <option value="green">Green</option>
+    <option value="pink">Pink</option>
+    </optgroup>
+    </select>
+</body>
+</html>
